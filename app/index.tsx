@@ -8,7 +8,7 @@ type Book = {
 };
 
 const books: Book[] = [
-  { id: 1, title: "Teste 1", author: "Gabriel Fidalgo", year: 1234 },
+  { id: 1, title: "Livro 1", author: "Gabriel Fidalgo", year: 1234 },
   { id: 2, title: "Teste 2", author: "Gustavo Maia", year: 1234 },
   { id: 3, title: "Teste 3", author: "Gustavo Rossi", year: 1234 },
   { id: 4, title: "Teste 4", author: "Pedro Lima", year: 1234 },
