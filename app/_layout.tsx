@@ -1,25 +1,19 @@
-import { Tabs } from "expo-router";
-import { Ionicons } from "@expo/vector-icons";
-import { StyleSheet } from "react-native";
+import { Stack } from "expo-router";
 
 export default function Layout() {
   return (
-    <Tabs
-      screenOptions={screenStyle}
-    >
-      <Tabs.Screen
-        name="index"
+    <Stack screenOptions={screenOptions}>
+      <Stack.Screen
+        name="(tabs)"
         options={{
-          title: "Biblioteca Virtual",
-          tabBarLabel: "Início",
-          tabBarIcon: ({ color, size }: { color: number, size: number }) => <Ionicons name="home" size={size} color={color} />,
+          headerShown: false,
         }}
       />
-    </Tabs>
+    </Stack>
   );
 }
 
-const screenStyle = {
+const screenOptions = {
   headerStyle: {
     backgroundColor: "#0F1115",
   },
@@ -28,13 +22,7 @@ const screenStyle = {
     fontWeight: "700",
   },
   headerTintColor: "#E83D84",
-  tabBarStyle: {
-    backgroundColor: "#12161D",
-    borderTopColor: "#262B36",
-    height: 62,
-    paddingBottom: 8,
-    paddingTop: 8,
+  contentStyle: {
+    backgroundColor: "#0F1115",
   },
-  tabBarActiveTintColor: "#E83D84",
-  tabBarInactiveTintColor: "#8E8E93",
-}
+};
