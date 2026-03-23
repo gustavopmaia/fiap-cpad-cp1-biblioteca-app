@@ -16,7 +16,7 @@ Gabriel Fidalgo - RM563213
 
 Gustavo Maia - RM562240
 
-Gusatavo Rossi - RM566075
+Gustavo Rossi - RM566075
 
 Pedro Lima - RM565461
 
